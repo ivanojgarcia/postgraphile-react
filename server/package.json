@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server in postgraphile / GraphQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgraphile",
+    "graphQL",
+    "nodeJS",
+    "express"
+  ],
+  "author": "Ivano J. García",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.9.6",
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-handlebars": "^3.1.0",
+    "graphile-utils": "^4.4.5",
+    "graphql": "^14.5.8",
+    "graphql-import": "^0.7.1",
+    "graphql-tools": "^4.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "node-env-file": "^0.1.8",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "postgraphile": "^4.4.4",
+    "sequelize": "^5.19.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

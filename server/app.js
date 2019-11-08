@@ -19,8 +19,9 @@ app.use(
     `postgres://${userDb}:${userPass}@${host}/${database}` || "postgres://user:pass@host:5432/dbname",
     [ "public"],
     {
-      watchPg: true,
+      // watchPg: true,
       graphiql: true,
+      enableCors: true,
       // appendPlugins: [GetAllCompanies],
       enhanceGraphiql: true,
       // jwtPgTypeIdentifier: 'administration.jwt_token',

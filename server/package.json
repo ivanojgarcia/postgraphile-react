@@ -16,7 +16,7 @@
   "author": "Ivano J. García",
   "license": "MIT",
   "dependencies": {
-    "apollo-server-express": "^2.9.6",
+    "apollo-server-express": "^2.14.2",
     "bcrypt": "^3.0.6",
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
